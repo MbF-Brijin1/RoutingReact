@@ -1,0 +1,19 @@
+.container {
+	width: 970px;
+	margin: 0 auto;
+}
+li {
+	display: inline-block;
+	list-style-type: none;
+	text-decoration: none;
+	padding: 20px 8px;
+}
+a {
+	text-decoration: none;
+}
+nav {
+	float: right;
+}
+header {
+	overflow: hidden;
+}

@@ -5,7 +5,7 @@ class Register extends Component {
 		return(
 			<div className="aboutus-content section-row">
 				<div className="container">
-					<h1>About us page</h1>
+					<h1>Register</h1>
 					<p>when using create-react-app, it creates a public folder, thats where the html is, I had created a html in the src folder which was not being loaded... Thanks for all the help. When changing the right index.html page in the public folder everything worked</p>
 				</div>
 			</div>

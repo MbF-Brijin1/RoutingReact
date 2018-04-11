@@ -6,7 +6,7 @@ class Login extends Component {
 			<div className="container section-row">
 			
 				<div>
-					
+					<h1>Login</h1>
 				</div>
 			</div>
 		);
