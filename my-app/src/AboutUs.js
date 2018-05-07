@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import { getDashboardAction } from '../src/actions/dashboardActions';
+
+
 
 class Aboutus extends Component {
 	render() {
@@ -13,5 +17,8 @@ class Aboutus extends Component {
 		);
 	}
 }
+function mapStateToProps(state) {
+	console.log()
+}
 
-export default Aboutus;
+export default  connect (mapStateToProps,{getDashboardAction})(Aboutus);
